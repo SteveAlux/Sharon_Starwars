@@ -1,3 +1,79 @@
 *{
-  background-color:blue;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #151515;
+}
+header{
+  display: flex;
+  flex-direction: column;
+  height:100px;
+  width: 100%;
+}
+section{
+  display: flex;
+
+}
+#lightsaber_icon{
+width: 24px;
+height:100%;
+background-color: #222222;
+}
+#top_containter{
+  display: flex;
+  width: 280px;
+  justify-content: space-between;
+  height: 38px;
+  background-color: #222222;
+}
+#top_containter2{
+  width: 39px;
+  height:38px;
+}
+.box{
+  margin-left:3px;
+  background-color: #222222;
+}
+#Search_icon{
+  width:39px;
+  height: 100%;
+  margin-left: 3px;
+}
+#starwars_title{
+
+  margin-left: 70px;
+  width:118px;
+  height: 36.22px;
+  background-color: #222222;
+
+
+}
+nav{
+  background-color: #222222;
+  color:white;
+}
+nav ul{
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin-right: auto;
+  margin-left: auto;
+  height:14px;
+font-size: 10px;
+
+}
+.whitebar{
+  display: block;
+  height: 3px;
+  width: 100%;
+  background-color: white;
+}
+nav ul li{
+  text-decoration: none;
+  list-style: none;
+
+}
+nav li:hover{
+
+  text-decoration: underline;
 }

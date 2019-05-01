@@ -10,9 +10,56 @@ header{
   height:100px;
   width: 100%;
 }
+
 section{
   display: flex;
 
+}
+main{
+  color:white;
+}
+article{
+  text-align: left;
+  width: 80%;
+  margin-right:auto;
+  margin-left: auto;
+
+}
+.categories_container{
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+.col{
+  display: flex;
+  flex-direction: column;
+  width: 113px;
+
+}
+.col span{
+
+  font-size: 13px;
+  
+  margin:5px 0px 8px 0px;
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  transition-duration: 1s;
+  background-color: rgb(145, 145, 145);
+}
+.col span:hover{
+  cursor: pointer;
+  -webkit-box-shadow: 10px 10px 15px 3px rgba(255,255,255,1);
+-moz-box-shadow: 10px 10px 15px 3px rgba(255,255,255,1);
+box-shadow: 10px 10px 15px 3px rgba(255,255,255,1);
+}
+.col span p{
+  padding:6px 4px 3px 4px;
+  background-color: rgb(145, 145, 145); 
+  border-top:2px solid white;
 }
 #lightsaber_icon{
 width: 24px;
@@ -74,6 +121,6 @@ nav ul li{
 
 }
 nav li:hover{
-
+  cursor: pointer;
   text-decoration: underline;
 }

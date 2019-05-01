@@ -1,0 +1,103 @@
+.whitebar{
+    display: block;
+    height: 3px;
+    width: 100%;
+    background-color: white;
+  }
+  nav ul li{
+    text-decoration: none;
+    list-style: none;
+  
+  }
+  nav li:hover{
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  nav{
+    background-color: #222222;
+    color:white;
+  }
+  nav ul{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    height:14px;
+  font-size: 10px;
+  }
+  #lightsaber_icon{
+    width: 24px;
+    height:100%;
+    background-color: #222222;
+    }
+    #top_containter{
+      display: flex;
+      width: 280px;
+      justify-content: space-between;
+      height: 38px;
+      background-color: #222222;
+    }
+    #top_containter2{
+      width: 39px;
+      height:38px;
+    }
+    .box{
+      margin-left:3px;
+      background-color: #222222;
+    }
+    #Search_icon{
+      width:39px;
+      height: 100%;
+      margin-left: 3px;
+    }
+    #starwars_title{
+    
+      margin-left: 70px;
+      width:118px;
+      height: 36.22px;
+      background-color: #222222;
+    
+    
+    }
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        background-color: #151515;
+      }
+      header{
+        display: flex;
+        flex-direction: column;
+        height:60px;
+        width: 100%;
+      }
+      
+      section{
+        display: flex;
+      
+      }  
+      main{
+          position: relative;
+          color:white;
+      }
+      #back{
+          font-size: 10px;
+          
+      
+        padding-left:20px;
+        width: 100%;
+        border-bottom: 1px solid white;
+        padding-bottom: 2px;
+      }
+      #back .fas{
+          padding-top:2px;
+          margin-right: 3px;
+          padding-bottom: 2px;
+      }
+      #container span{
+        width: 90%;
+        height:200px;
+        display: flex;
+        
+      }

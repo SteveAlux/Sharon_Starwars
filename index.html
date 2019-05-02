@@ -5,7 +5,7 @@
     <meta type="description" content="Game Site for multiple types of test that allow for fun interaction with the Starwars series">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-    <link rel='stylesheet' type="text/css" href='./categories.css'>
+    <link rel='stylesheet' type="text/css" href='main.css'>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script
       src="https://code.jquery.com/jquery-3.2.1.min.js"
@@ -16,11 +16,12 @@
     <header>
       <section>
         <div id='top_containter'>
-          <img  id='lightsaber_icon'src='../Images/sabers.png' alt='lightsaber_burger'>
-          <img  id='starwars_title'src='../Images/starwars.png' alt='Starwars Title'>
+          <img  id='lightsaber_icon' alt='lightsaber_burger'>
+          <div id='landing'class='hidden'></div>
+          <img  id='starwars_title' alt='Starwars Title'>
         </div>
         <div id='top_containter2' class='box'>
-          <img  id='Search_icon'src='../Images/magni.png' alt='Search_icon' >
+          <img  id='Search_icon' alt='Search_icon' >
         </div>
       </section>
       <span class='whitebar'></span>
@@ -38,7 +39,7 @@
         <h2>Categories</h2>
         <div class='categories_container'>
           <div class='col'>
-            <span><p>Characters</p></span>
+            <span id='Characters'><p>Characters</p></span>
             <span><p>Trivia</p></span>
             <span><p>Light Side</p></span>
           <span><p>Quote</p></span>
@@ -53,5 +54,7 @@
         </div>
       </article>
     </main>
+    <script src='index.js'></script>
   </body>
+ 
 </html>

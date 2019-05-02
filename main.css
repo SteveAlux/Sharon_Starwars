@@ -132,6 +132,73 @@ nav ul{
   background-color: #222222;
 
 }
+
+
+#burger_top_boxes{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  
+}
+#burger_top_boxes img{
+  height: 100%;
+  width: 100%;
+}
+.box_burger{
+  font-size: 10px;
+  margin-left: 5px;
+  padding:10px;
+  
+}
+#close{
+  align-self: flex-end;
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+#close:hover{
+  cursor: pointer;
+}
+#burger_top_boxes span{
+  margin:5px;
+  height:30px;
+  width:35px;
+  background-color :lightslategray;
+  border-radius: 6px;
+}
+#landing{
+  
+  position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+   background-color: rgba(29, 29, 29, 0);
+}
+.hidden{
+  display: none;
+}
+#closing_container{
+  background-color:rgba(0, 0, 0, 0);
+  height:100%;
+  
+  width: 120px;
+}
+#container{
+  display: flex;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0);
+  justify-content: space-between;
+}
+#burger_content{
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+}
+#burger_content *{
+  background-color: white;
+}
+
 .whitebar{
   display: block;
   height: 3px;
@@ -148,4 +215,36 @@ nav ul li{
 nav li:hover{
   cursor: pointer;
   text-decoration: underline;
+}
+ ul{
+  list-style: none;
+}
+#quizzes_carrot{
+  -moz-transition: all .5s linear;
+    -webkit-transition: all .5s linear;
+    transition: all .5s linear;
+    margin-left:4px;
+    margin-top:10px;
+    width:10px;
+    height:10px;
+    padding:5px;
+}
+span ul{
+  margin-left:5px;
+}
+#trivia_carrot{
+  -moz-transition: all .5s linear;
+    -webkit-transition: all .5s linear;
+    transition: all .5s linear;
+    margin-left:4px;
+    margin-top:10px;
+    width:10px;
+    height:10px;
+    padding:5px;
+}
+.down{
+  -ms-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
 }

@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   background-color: #151515;
+  font-family: 'Roboto', sans-serif;
 }
 header{
   display: flex;
@@ -12,6 +13,7 @@ header{
 }
 
 section{
+  background-color: white;
   display: flex;
 
 }
@@ -30,25 +32,36 @@ article{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-
 }
+#would_text{ 
+  font-size:12px;
+}
+
+
+
+.col span #love_text{
+  padding:6px 4px 3px 2px;
+ }
 .col{
   display: flex;
   flex-direction: column;
   width: 113px;
 
 }
+article h2{
+  padding-left: 2px;
+}
 .col span{
 
   font-size: 13px;
-  
+  border-radius: 5%;
   margin:5px 0px 8px 0px;
-  height: 80px;
+  height: 113px;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  transition-duration: 1s;
-  background-color: rgb(145, 145, 145);
+  transition-duration: .5s;
+  background-color:#4A4A4A;
 }
 .col span:hover{
   cursor: pointer;
@@ -57,19 +70,24 @@ article{
 box-shadow: 10px 10px 15px 3px rgba(255,255,255,1);
 }
 .col span p{
+  border-bottom-right-radius: 16%;
+  border-bottom-left-radius: 16%;
   padding:6px 4px 3px 4px;
-  background-color: rgb(145, 145, 145); 
+  background-color: #4A4A4A; 
   border-top:2px solid white;
 }
 #lightsaber_icon{
-width: 24px;
-height:100%;
-background-color: #222222;
-}
+  width: 36px;
+    height: 25px;
+    background-color: #222222;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-left: 3px;
+  }
 #top_containter{
   display: flex;
   width: 280px;
-  justify-content: space-between;
+  
   height: 38px;
   background-color: #222222;
 }
@@ -85,13 +103,17 @@ background-color: #222222;
   width:39px;
   height: 100%;
   margin-left: 3px;
+  padding:6px;
 }
 #starwars_title{
 
   margin-left: 70px;
-  width:118px;
-  height: 36.22px;
+  width: 118px;
+  height: 20px;
   background-color: #222222;
+  margin-top: auto;
+  margin-bottom: auto;
+  border: none;
 
 
 }
@@ -101,12 +123,13 @@ nav{
 }
 nav ul{
   display: flex;
-  justify-content: space-between;
-  width: 50%;
-  margin-right: auto;
-  margin-left: auto;
-  height:14px;
-font-size: 10px;
+    justify-content: space-between;
+    width:190px;
+    margin-right: auto;
+    margin-left: auto;
+    height:35px;
+  font-size: 15px;
+  background-color: #222222;
 
 }
 .whitebar{
@@ -117,8 +140,10 @@ font-size: 10px;
 }
 nav ul li{
   text-decoration: none;
-  list-style: none;
-
+    list-style: none;
+    margin-top: auto;
+    margin-bottom: auto;
+    background-color: #222222;
 }
 nav li:hover{
   cursor: pointer;

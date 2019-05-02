@@ -3,8 +3,9 @@
   <head>
     <title>Sharon's Starwars Trivia</title>
     <meta type="description" content="Game Site for multiple types of test that allow for fun interaction with the Starwars series">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-    <link rel='stylesheet' type="text/css" href='./main.css'>
+    <link rel='stylesheet' type="text/css" href='./categories.css'>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script
       src="https://code.jquery.com/jquery-3.2.1.min.js"
@@ -14,14 +15,14 @@
   <body>
     <header>
       <section>
-      <div id='top_containter'>
-        <img  id='lightsaber_icon'src='Images/' alt='lightsaber_burger'>
-        <img  id='starwars_title'src='Images/starwars.png' alt='Starwars Title'>
-      </div>
-      <div id='top_containter2' class='box'>
-        <img  id='Search_icon'src='' alt='Search_icon' >
-      </div>
-    </section>
+        <div id='top_containter'>
+          <img  id='lightsaber_icon'src='../Images/sabers.png' alt='lightsaber_burger'>
+          <img  id='starwars_title'src='../Images/starwars.png' alt='Starwars Title'>
+        </div>
+        <div id='top_containter2' class='box'>
+          <img  id='Search_icon'src='../Images/magni.png' alt='Search_icon' >
+        </div>
+      </section>
       <span class='whitebar'></span>
       <nav>
         <ul id='nav_list'>
@@ -43,8 +44,8 @@
           <span><p>Quote</p></span>
           </div>
           <div class='col'>
-            <span><p>Would you rather?</p></span>
-            <span><p>Love</p></span>
+            <span><p id='would_text'>Would you rather?</p></span>
+            <span><p id='love_text'>Love</p></span>
             <span><p>Side</p></span>
             <span><p>Misc.</p></span>
           </div>
